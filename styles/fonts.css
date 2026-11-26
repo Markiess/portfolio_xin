@@ -1,0 +1,293 @@
+@font-face {
+  font-family:'Newsreader';
+  font-style:normal;
+  font-weight:400;
+  font-display:swap;
+  src:url('../assets/fonts/newsreader-normal-latin.woff2') format('woff2');
+}
+
+@font-face {
+  font-family:'Newsreader';
+  font-style:italic;
+  font-weight:400;
+  font-display:swap;
+  src:url('../assets/fonts/newsreader-italic-latin.woff2') format('woff2');
+}
+
+@font-face {
+  font-family:'Inter Tight';
+  font-style:normal;
+  font-weight:500 600;
+  font-display:swap;
+  src:url('../assets/fonts/inter-tight-normal-latin.woff2') format('woff2');
+}
+
+@font-face {
+  font-family:'Noto Sans JP';
+  font-style:normal;
+  font-weight:500;
+  font-display:swap;
+  src:url('../assets/fonts/noto-sans-jp-normal-2019-subset.woff2') format('woff2');
+  unicode-range:U+2019;
+}
+
+@font-face {
+  font-family:'Noto Sans JP';
+  font-style:normal;
+  font-weight:500;
+  font-display:swap;
+  src:url('../assets/fonts/noto-sans-jp-normal-7070.woff2') format('woff2');
+  unicode-range:U+7070;
+}
+
+@font-face {
+  font-family:'Noto Sans JP';
+  font-style:normal;
+  font-weight:500;
+  font-display:swap;
+  src:url('../assets/fonts/noto-sans-jp-normal-6249.woff2') format('woff2');
+  unicode-range:U+6249;
+}
+
+@font-face {
+  font-family:'Noto Sans JP';
+  font-style:normal;
+  font-weight:500;
+  font-display:swap;
+  src:url('../assets/fonts/noto-sans-jp-normal-5d50.woff2') format('woff2');
+  unicode-range:U+5d50;
+}
+
+@font-face {
+  font-family:'Noto Sans JP';
+  font-style:normal;
+  font-weight:500;
+  font-display:swap;
+  src:url('../assets/fonts/noto-sans-jp-normal-706f.woff2') format('woff2');
+  unicode-range:U+706f;
+}
+
+@font-face {
+  font-family:'Noto Sans JP';
+  font-style:normal;
+  font-weight:500;
+  font-display:swap;
+  src:url('../assets/fonts/noto-sans-jp-normal-6f6e.woff2') format('woff2');
+  unicode-range:U+6f6e;
+}
+
+@font-face {
+  font-family:'Noto Sans JP';
+  font-style:normal;
+  font-weight:500;
+  font-display:swap;
+  src:url('../assets/fonts/noto-sans-jp-normal-5869.woff2') format('woff2');
+  unicode-range:U+5869,U+4e89,U+7763;
+}
+
+@font-face {
+  font-family:'Noto Sans JP';
+  font-style:normal;
+  font-weight:500;
+  font-display:swap;
+  src:url('../assets/fonts/noto-sans-jp-normal-7dd1.woff2') format('woff2');
+  unicode-range:U+7dd1,U+5348;
+}
+
+@font-face {
+  font-family:'Noto Sans JP';
+  font-style:normal;
+  font-weight:500;
+  font-display:swap;
+  src:url('../assets/fonts/noto-sans-jp-normal-523b.woff2') format('woff2');
+  unicode-range:U+523b,U+5bdf,U+76e3;
+}
+
+@font-face {
+  font-family:'Noto Sans JP';
+  font-style:normal;
+  font-weight:500;
+  font-display:swap;
+  src:url('../assets/fonts/noto-sans-jp-normal-9ce5.woff2') format('woff2');
+  unicode-range:U+9ce5;
+}
+
+@font-face {
+  font-family:'Noto Sans JP';
+  font-style:normal;
+  font-weight:500;
+  font-display:swap;
+  src:url('../assets/fonts/noto-sans-jp-normal-9759.woff2') format('woff2');
+  unicode-range:U+9759,U+590f;
+}
+
+@font-face {
+  font-family:'Noto Sans JP';
+  font-style:normal;
+  font-weight:500;
+  font-display:swap;
+  src:url('../assets/fonts/noto-sans-jp-normal-8d64.woff2') format('woff2');
+  unicode-range:U+8d64;
+}
+
+@font-face {
+  font-family:'Noto Sans JP';
+  font-style:normal;
+  font-weight:500;
+  font-display:swap;
+  src:url('../assets/fonts/noto-sans-jp-normal-8c37.woff2') format('woff2');
+  unicode-range:U+8c37,U+301c;
+}
+
+@font-face {
+  font-family:'Noto Sans JP';
+  font-style:normal;
+  font-weight:500;
+  font-display:swap;
+  src:url('../assets/fonts/noto-sans-jp-normal-9752.woff2') format('woff2');
+  unicode-range:U+9752,U+843d,U+6226;
+}
+
+@font-face {
+  font-family:'Noto Sans JP';
+  font-style:normal;
+  font-weight:500;
+  font-display:swap;
+  src:url('../assets/fonts/noto-sans-jp-normal-89b3.woff2') format('woff2');
+  unicode-range:U+89b3,U+9589,U+6620;
+}
+
+@font-face {
+  font-family:'Noto Sans JP';
+  font-style:normal;
+  font-weight:500;
+  font-display:swap;
+  src:url('../assets/fonts/noto-sans-jp-normal-623b.woff2') format('woff2');
+  unicode-range:U+623b;
+}
+
+@font-face {
+  font-family:'Noto Sans JP';
+  font-style:normal;
+  font-weight:500;
+  font-display:swap;
+  src:url('../assets/fonts/noto-sans-jp-normal-5ddd.woff2') format('woff2');
+  unicode-range:U+5ddd;
+}
+
+@font-face {
+  font-family:'Noto Sans JP';
+  font-style:normal;
+  font-weight:500;
+  font-display:swap;
+  src:url('../assets/fonts/noto-sans-jp-normal-9053.woff2') format('woff2');
+  unicode-range:U+9053;
+}
+
+@font-face {
+  font-family:'Noto Sans JP';
+  font-style:normal;
+  font-weight:500;
+  font-display:swap;
+  src:url('../assets/fonts/noto-sans-jp-normal-9577.woff2') format('woff2');
+  unicode-range:U+9577;
+}
+
+@font-face {
+  font-family:'Noto Sans JP';
+  font-style:normal;
+  font-weight:500;
+  font-display:swap;
+  src:url('../assets/fonts/noto-sans-jp-normal-5f8c.woff2') format('woff2');
+  unicode-range:U+5f8c,U+8005,U+958b,U+4f5c,U+54c1;
+}
+
+@font-face {
+  font-family:'Noto Sans JP';
+  font-style:normal;
+  font-weight:500;
+  font-display:swap;
+  src:url('../assets/fonts/noto-sans-jp-normal-6700.woff2') format('woff2');
+  unicode-range:U+6700,U+6b63,U+753b,U+898b,U+5e74;
+}
+
+@font-face {
+  font-family:'Noto Sans JP';
+  font-style:normal;
+  font-weight:500;
+  font-display:swap;
+  src:url('../assets/fonts/noto-sans-jp-normal-304b.woff2') format('woff2');
+  unicode-range:U+304b,U+306a,U+306e,U+3061,U+305f,U+3044,U+308b,U+3059,U+3079,U+3066,U+3058,U+304f,U+3092;
+}
+
+@font-face {
+  font-family:'Noto Sans JP';
+  font-style:normal;
+  font-weight:500;
+  font-display:swap;
+  src:url('../assets/fonts/noto-sans-jp-normal-2019.woff2') format('woff2');
+  unicode-range:U+2019;
+}
+
+@font-face {
+  font-family:'Noto Serif SC';
+  font-style:normal;
+  font-weight:700;
+  font-display:swap;
+  src:url('../assets/fonts/noto-serif-sc-normal-6602.woff2') format('woff2');
+  unicode-range:U+6602;
+}
+
+@font-face {
+  font-family:'Noto Serif SC';
+  font-style:normal;
+  font-weight:700;
+  font-display:swap;
+  src:url('../assets/fonts/noto-serif-sc-normal-74e6.woff2') format('woff2');
+  unicode-range:U+74e6;
+}
+
+@font-face {
+  font-family:'Noto Serif SC';
+  font-style:normal;
+  font-weight:700;
+  font-display:swap;
+  src:url('../assets/fonts/noto-serif-sc-normal-8428.woff2') format('woff2');
+  unicode-range:U+8428;
+}
+
+@font-face {
+  font-family:'Noto Serif SC';
+  font-style:normal;
+  font-weight:700;
+  font-display:swap;
+  src:url('../assets/fonts/noto-serif-sc-normal-83b1.woff2') format('woff2');
+  unicode-range:U+83b1;
+}
+
+@font-face {
+  font-family:'Noto Serif SC';
+  font-style:normal;
+  font-weight:700;
+  font-display:swap;
+  src:url('../assets/fonts/noto-serif-sc-normal-91cc.woff2') format('woff2');
+  unicode-range:U+91cc;
+}
+
+@font-face {
+  font-family:'Noto Serif SC';
+  font-style:normal;
+  font-weight:700;
+  font-display:swap;
+  src:url('../assets/fonts/noto-serif-sc-normal-b7-subset.woff2') format('woff2');
+  unicode-range:U+b7;
+}
+
+@font-face {
+  font-family:'Noto Serif SC';
+  font-style:normal;
+  font-weight:700;
+  font-display:swap;
+  src:url('../assets/fonts/noto-serif-sc-normal-b7.woff2') format('woff2');
+  unicode-range:U+b7;
+}

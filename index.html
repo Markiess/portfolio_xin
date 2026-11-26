@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <meta name="theme-color" content="#edebe6">
+    <meta name="description" content="Explore the twelve films of Leon Vasari, 1958–1989, on an interactive VHS shelf.">
+    <title>Leon Vasari — Filmography</title>
+    <link rel="stylesheet" href="./styles/fonts.css">
+    <link rel="stylesheet" href="./styles/main.css">
+  </head>
+  <body>
+    <main id="archive">
+      <header class="bar">
+        <a href="#catalogue" id="back" class="box lbl">Back / 戻る</a>
+        <div class="logo"><b lang="zh-CN">莱昂·瓦萨里</b><small>Leon Vasari</small></div>
+        <span class="lbl career">Career 1958年〜1989年</span>
+      </header>
+      <nav class="decades" aria-label="Decades">
+        <i class="indicator"></i>
+        <button class="lbl" data-start="0">All / すべて</button>
+        <button class="lbl" data-start="0">1950s</button>
+        <button class="lbl" data-start="1">1960s</button>
+        <button class="lbl" data-start="5">1970s</button>
+        <button class="lbl" data-start="9">1980s</button>
+      </nav>
+      <section class="shelf" aria-label="Filmography shelf"><div class="stage"></div></section>
+      <div class="caption" aria-live="polite" aria-atomic="true">
+        <h1 class="mask"><span>Noon in Ashes</span></h1>
+        <div class="mask lbl sub"><span>HAI NO SHOGO / 灰の正午</span></div>
+        <div class="mask year"><span>1971</span></div>
+      </div>
+      <button class="arrow prev" aria-label="Previous film"><svg viewBox="0 0 18 10"><path d="M5 1 1 5l4 4M1 5h16" fill="none" stroke="currentColor" stroke-width="1.2"/></svg></button>
+      <button class="arrow next" aria-label="Next film"><svg viewBox="0 0 18 10"><path d="m13 1 4 4-4 4M17 5H1" fill="none" stroke="currentColor" stroke-width="1.2"/></svg></button>
+      <footer class="lbl">
+        <span>© Leon Vasari. All rights reserved.</span>
+        <span><a id="fb" aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php" target="_blank" rel="noopener noreferrer">FB</a> / <a id="tw" aria-label="Share on X" href="https://twitter.com/intent/tweet" target="_blank" rel="noopener noreferrer">TW</a></span>
+      </footer>
+    </main>
+    <div class="grain" aria-hidden="true"></div>
+    <section class="detail" role="dialog" aria-modal="true" aria-labelledby="film-title" hidden>
+      <header class="bar detail-bar">
+        <button class="box lbl close-film">Close / 閉じる</button>
+        <div class="logo"><b lang="zh-CN">莱昂·瓦萨里</b><small>Leon Vasari</small></div>
+        <span></span>
+      </header>
+      <div class="detail-grid">
+        <article class="copy">
+          <div class="mask"><div class="lbl sub"></div></div>
+          <div class="mask"><div><h2 id="film-title"></h2></div></div>
+          <div class="mask"><div class="meta lbl"></div></div>
+          <div class="mask"><div class="synopsis"></div></div>
+          <div class="mask">
+            <div class="credit">Written and directed by Leon Vasari. <span lang="ja">監督作品</span></div>
+          </div>
+          <div class="mask">
+            <div>
+              <button class="watch lbl" aria-controls="availability" aria-expanded="false">Watch the film / 映画を見る</button>
+            </div>
+          </div>
+          <p class="screening" id="availability" role="status" hidden>This film has no screening copy in the archive.</p>
+        </article>
+        <svg class="poster" viewBox="0 0 474 900" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <defs>
+            <clipPath id="poster-clip"><rect width="474" height="900"/></clippath>
+            <filter id="bleed" x="-60%" y="-60%" width="220%" height="220%">
+              <feTurbulence type="fractalNoise" baseFrequency=".011" numOctaves="3" seed="7" result="noise"/>
+              <feDisplacementMap in="SourceGraphic" in2="noise" scale="120" xChannelSelector="R" yChannelSelector="G"/>
+            </filter>
+            <mask id="ink" maskUnits="userSpaceOnUse" x="-200" y="-200" width="874" height="1300">
+              <g fill="white" filter="url(#bleed)" id="blots"></g>
+            </mask>
+          </defs>
+          <g clip-path="url(#poster-clip)" id="print" mask="url(#ink)">
+            <image id="poster-image" preserveAspectRatio="none"/>
+          </g>
+        </svg>
+      </div>
+    </section>
+    <section class="index" role="dialog" aria-modal="true" aria-labelledby="catalog-title" hidden>
+      <header class="bar detail-bar">
+        <button class="box lbl close-index">Back / 戻る</button>
+        <div class="logo"><b lang="zh-CN">莱昂·瓦萨里</b><small>Leon Vasari</small></div>
+        <span></span>
+      </header>
+      <div class="catalog"><h2 id="catalog-title">Filmography</h2><ol></ol></div>
+    </section>
+    <div class="cursor" aria-hidden="true"><i></i><b></b><span>OPEN<br>開く</span></div>
+    <script defer src="./scripts/films.js"></script>
+    <script defer src="./scripts/artwork-data.js"></script>
+    <script defer src="./scripts/artwork.js"></script>
+    <script defer src="./scripts/tape-renderer.js"></script>
+    <script defer src="./scripts/shelf-labels.js"></script>
+    <script defer src="./scripts/shelf.js"></script>
+    <script defer src="./scripts/detail.js"></script>
+    <script defer src="./scripts/main.js"></script>
+  </body>
+</html>
